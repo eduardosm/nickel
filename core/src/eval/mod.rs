@@ -992,7 +992,6 @@ impl Closure {
     }
 }
 
-#[allow(type_alias_bounds)] // TODO: Look into this warning.
 pub type Environment = GenericEnvironment<Ident, CacheIndex>;
 
 /// Raised when trying to build an environment from a term which is not a record.
